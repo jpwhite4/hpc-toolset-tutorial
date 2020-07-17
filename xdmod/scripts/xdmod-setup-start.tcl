@@ -15,7 +15,7 @@ set timeout 240
 spawn "xdmod-setup"
 
 selectMenuOption 1
-answerQuestion {Site Address} http://localhost:8080/
+answerQuestion {Site Address} https://localhost:4443/
 provideInput {Email Address:} ccr-xdmod-help@buffalo.edu
 answerQuestion {Java Path} /usr/bin/java
 answerQuestion {Javac Path} /usr/bin/javac
