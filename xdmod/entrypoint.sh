@@ -32,6 +32,8 @@ then
         if [ -f "/xdmod/setup.sh" ]; then
             /xdmod/setup.sh
         fi
+        echo "---> Open XDMoD Setup: SSO..."
+        /srv/xdmod/scripts/xdmod-setup-sso.sh
     else
         #------------------------
         # Run xdmod-setup
